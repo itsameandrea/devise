@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'flats', to: 'flats#index'
   get 'pages/index'
   get 'supersecret', to: 'pages#super_secret_page'
 
